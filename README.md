@@ -10,12 +10,6 @@
 
 ---
 
-<!-- Add your screenshot here -->
-![Site Screenshot](website/screenshot.png)
-<!-- Replace the path above with your actual screenshot file path or URL -->
-
----
-
 ## About The Project
 
 This project provisions a complete static website hosting solution on AWS using raw Terraform — no community modules, no abstractions. Every resource is explicitly defined, giving you full visibility into how S3 and CloudFront work together in a real-world setup.
@@ -86,6 +80,7 @@ cloudfront_domain_name = "https://xxxxxxxxxx.cloudfront.net"
 ```
 
 Open the CloudFront URL in your browser — your site is live.
+<img width="1920" height="586" alt="Screenshot (604)" src="https://github.com/user-attachments/assets/8f01f126-016b-48cc-9014-42c95ed02b4c" />
 
 
 ---
@@ -122,10 +117,8 @@ terraform-static-site-no-modules/
 ---
 
 ## Related
-
-- 📖 [Read the full blog post](#) — replace with your blog URL
-- 🔗 [Modular version of this project](#) — replace with your modules repo link
-
+- 📖 [Read the full blog post](https://codezaza.com/2026/03/05/deploy-static-website-terraform-aws-s3-cloudfront/)
+  
 ---
 
 ## License
