@@ -121,6 +121,3 @@ terraform-static-site-no-modules/
   
 ---
 
-## License
-
-Distributed under the MIT License.
